@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akbar | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <nav>
+        <div class="logo">Akbar<span style="color:var(--primary-color)">.Dev</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Bosh sahifa</a></li>
+            <li><a href="#about">Men haqimda</a></li>
+            <li><a href="#skills">Ko'nikmalar</a></li>
+            <li><a href="#projects">Loyihalar</a></li>
+            <li><a href="#contact">Aloqa</a></li>
+        </ul>
+        <div class="theme-toggle" id="theme-btn">
+            <i class="fas fa-moon"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Salom, mening ismim</h3>
+            <h1>Akbar</h1>
+            <h3 style="color: var(--text-color); font-weight: 400;">Men <span class="typing-text" style="color: var(--accent-color); font-weight: 700;">Dasturchiman</span></h3>
+            <p>Kelajakda kuchli dasturchi bo'lishni maqsad qilgan IT Park o'quvchisiman. Texnologiyalar olamiga qiziqishim baland.</p>
+            <a href="#about" class="btn">Batafsil</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">Men <span>Haqimda</span></h2>
+        <div class="about-container">
+            <div class="glass-card">
+                <h3>Mening Profilim</h3>
+                <p style="margin-top: 10px; line-height: 1.6;">
+                    Men IT sohasiga qiziquvchi yosh dasturchiman. Hozirda IT Parkda o'qish bilan bir qatorda maktab ta'limini ham a'lo darajada davom ettirmoqdaman.
+                </p>
+                
+                <div class="about-details">
+                    <div class="detail-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span><strong>Tug'ilgan sana:</strong> 2011.09.25</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span><strong>Maktab:</strong> 33-sonli maktab, 8-sinf</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-laptop-code"></i>
+                        <span><strong>O'qish joyi:</strong> IT Park</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span><strong>Manzil:</strong> Xorazm, Yangibozor, Do‘stlik, Nihol ko‘chasi 10</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">Mening <span>Ko'nikmalarim</span></h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+                <p>Veb sahifalar tuzilishi</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <p>Dizayn va Animatsiyalar</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Interaktivlik</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+                <p>Boshlang'ich bilimlar</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Mening <span>Loyihalarim</span></h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-info">
+                    <h4>Portfolio Sayt</h4>
+                    <p>O'zim haqimda to'liq ma'lumot beruvchi shaxsiy veb-sayt.</p>
+                    <a href="#" style="color: var(--accent-color); margin-top: 10px; display: inline-block;">Ko'rish &rarr;</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h4>Login Formasi</h4>
+                    <p>HTML va CSS yordamida yaratilgan zamonaviy kirish oynasi.</p>
+                    <a href="/login.html" style="color: var(--accent-color); margin-top: 10px; display: inline-block;">Ko'rish &rarr;</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h4>Kalkulyator</h4>
+                    <p>JavaScript yordamida ishlaydigan oddiy hisoblash mashinasi.</p>
+                    <a href="/calculator.html"  style="color: var(--accent-color); margin-top: 10px; display: inline-block;">Ko'rish &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Bog'lanish</h2>
+        <div class="contact-content">
+            <div class="glass-card">
+                <p>Loyihalar yoki hamkorlik bo'yicha menga yozishingiz mumkin.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-btn"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+                    <a href="mailto:email@example.com" class="social-btn"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 20px; background: var(--nav-bg); border-top: 1px solid var(--glass-border);">
+        <p>&copy; 2025 Akbar. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
